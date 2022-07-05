@@ -100,9 +100,9 @@ calculateStages();
 let stageOfCalc = 0;
 drawArr(sierpinskiTriangleStages[stageOfCalc], stageOfCalc);
 document.addEventListener("click", ()=>{
-    drawArr(sierpinskiTriangleStages[stageOfCalc], stageOfCalc);
-    stageOfCalc++;
+     stageOfCalc++;
     stageOfCalc = stageOfCalc % sierpinskiTriangleStages.length;
+    drawArr(sierpinskiTriangleStages[stageOfCalc], stageOfCalc);
 });
 
 
